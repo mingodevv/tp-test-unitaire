@@ -1,0 +1,16 @@
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v"
+
+[tool.flake8]
+max-line-length = 100
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+
+[tool.mypy]
+ignore_missing_imports = true
