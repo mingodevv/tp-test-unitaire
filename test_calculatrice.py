@@ -18,10 +18,10 @@ from calculatrice import (
     moyenne,
 )
 
-
 # ============================================================
 # Tests addition
 # ============================================================
+
 
 class TestAddition:
     """Tests pour la fonction addition."""
@@ -61,6 +61,7 @@ class TestAddition:
 # Tests soustraction
 # ============================================================
 
+
 class TestSoustraction:
     """Tests pour la fonction soustraction."""
 
@@ -92,6 +93,7 @@ class TestSoustraction:
 # ============================================================
 # Tests multiplication
 # ============================================================
+
 
 class TestMultiplication:
     """Tests pour la fonction multiplication."""
@@ -129,6 +131,7 @@ class TestMultiplication:
 # ============================================================
 # Tests division
 # ============================================================
+
 
 class TestDivision:
     """Tests pour la fonction division."""
@@ -173,6 +176,7 @@ class TestDivision:
 # Tests est_pair
 # ============================================================
 
+
 class TestEstPair:
     """Tests pour la fonction est_pair."""
 
@@ -208,6 +212,7 @@ class TestEstPair:
 # ============================================================
 # Tests factorielle
 # ============================================================
+
 
 class TestFactorielle:
     """Tests pour la fonction factorielle."""
@@ -247,6 +252,7 @@ class TestFactorielle:
 # Tests inverser_chaine
 # ============================================================
 
+
 class TestInverserChaine:
     """Tests pour la fonction inverser_chaine."""
 
@@ -278,6 +284,7 @@ class TestInverserChaine:
 # ============================================================
 # Tests est_palindrome
 # ============================================================
+
 
 class TestEstPalindrome:
     """Tests pour la fonction est_palindrome."""
@@ -314,6 +321,7 @@ class TestEstPalindrome:
 # ============================================================
 # Tests maximum
 # ============================================================
+
 
 class TestMaximum:
     """Tests pour la fonction maximum."""
@@ -352,6 +360,7 @@ class TestMaximum:
 # ============================================================
 # Tests moyenne
 # ============================================================
+
 
 class TestMoyenne:
     """Tests pour la fonction moyenne."""
